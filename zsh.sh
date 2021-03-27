@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade
 
 #copy fira code
-sudo cp FiraCode /usr/share/fonts/truetype
+sudo cp -r FiraCode /usr/share/fonts/truetype
 
 #install zsh, git, ruby(for colorls) and curl
 sudo apt install zsh curl git ruby
@@ -19,7 +19,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 cp -f .zshrc ~/.zshrc
 
 #install colorls
-gem install colorls
+sudo gem install colorls
 
 #install zsh-syntax-highlighting
 sudo apt install zsh-syntax-highlighting
