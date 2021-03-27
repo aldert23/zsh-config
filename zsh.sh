@@ -15,11 +15,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 #install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-#set custom settings
-cp -f .zshrc ~/.zshrc
-
 #install colorls
 sudo gem install colorls
+
+#set custom settings
+cp -f .zshrc ~/.zshrc
 
 #install zsh-syntax-highlighting
 sudo apt install zsh-syntax-highlighting
