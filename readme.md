@@ -1,1 +1,1 @@
-install script for my zsh config
+install script for my zsh config(kali specific for now)
