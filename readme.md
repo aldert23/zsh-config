@@ -1,0 +1,1 @@
+install script for my zsh config
