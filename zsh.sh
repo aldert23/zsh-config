@@ -18,6 +18,9 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 #install colorls
 sudo gem install colorls
 
+#temp stop
+sleep 40
+
 #set custom settings
 cp -f .zshrc ~/.zshrc
 
