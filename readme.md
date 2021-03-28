@@ -50,3 +50,11 @@ cp -f .zshrc ~/.zshrc
 ```shell
 sudo apt install zsh-syntax-highlighting
 ```
+
+* last thing
+go to the terminal settings and change the font to fira code nerd font
+
+
+restart the terminal and walk trouch the confige and then ur done.
+
+Enjoy
