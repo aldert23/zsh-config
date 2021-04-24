@@ -122,3 +122,11 @@ source $ZSH/oh-my-zsh.sh
 alias ll='colorls -lA --sd --group-directories-first'
 alias ls='colorls --group-directories-first'
 alias cls='clear'
+
+
+#add to path
+#export PATH=<location>:$PATH
+
+
+#syntax highlight
+#manjaro source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
