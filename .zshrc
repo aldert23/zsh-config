@@ -121,8 +121,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='colorls -lA --sd --group-directories-first'
 alias ls='colorls --group-directories-first'
+alias zshconfig="gedit ~/.zshrc"
+alias ohmyzsh="gedit ~/.oh-my-zsh"
 alias cls='clear'
-
+alias free='free -m'
+alias cp="cp -i"
 
 #add to path
 #export PATH=<location>:$PATH
