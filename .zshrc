@@ -120,16 +120,21 @@ source $ZSH/oh-my-zsh.sh
 #custom alias
 
 alias ll='colorls -lA --sd --group-directories-first'
-alias ls='colorls --group-directories-first'
+alias ls='colorls -A --group-directories-first'
 alias zshconfig="gedit ~/.zshrc"
+alias zshrc="gedit ~/.zshrc"
 alias ohmyzsh="gedit ~/.oh-my-zsh"
 alias cls='clear'
 alias free='free -m'
 alias cp="cp -i"
+alias xampp='cd /opt/lampp && sudo ./manager-linux-x64.run'
+alias ge='gedit'
+alias sge='sudo gedit'
+
 
 #add to path
 #export PATH=<location>:$PATH
 
 
 #syntax highlight
-#manjaro source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
