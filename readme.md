@@ -64,10 +64,12 @@ else use ```cd``` plus the path to the zsh-config folder
 ```shell
 sudo cp -r FiraCode /usr/share/fonts/truetype
 ```
-* install zsh, git, ruby and colorls
+* install zsh, git and ruby
 ```shell
-sudo pacman -S zsh ruby git ruby-colorls
+sudo pacman -S zsh ruby git
 ```
+install  ruby-colorls at aur
+
 * install oh-my-zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
