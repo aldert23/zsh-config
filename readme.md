@@ -96,9 +96,9 @@ restart the terminal and walk trouch the confige and then ur done.
 
 Enjoy
 
-# Optional additions(manjaro)
+## Optional additions(manjaro)
 
-## installing yay and colorls
+### installing yay and colorls
 
 * install build tools for building packages
 ```shell
