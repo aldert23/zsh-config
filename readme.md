@@ -36,6 +36,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
+* set custom settings
+```shell
+cp -f ~/zsh-config/.zshrc ~/.zshrc
+```
+
 * install colorls# My terminal config(kali specific for now)
 this is purely for me. to make it easier to install the stuff
 
@@ -81,7 +86,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 * set custom settings
 ```shell
-cp -f .zshrc ~/.zshrc
+cp -f ~/zsh-config/.zshrc ~/.zshrc
 ```
 
 * last thing
