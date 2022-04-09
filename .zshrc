@@ -121,15 +121,28 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='colorls -lA --sd --group-directories-first'
 alias ls='colorls -A --group-directories-first'
-alias zshconfig="gedit ~/.zshrc"
-alias zshrc="gedit ~/.zshrc"
-alias ohmyzsh="gedit ~/.oh-my-zsh"
+alias zshconfig="nano ~/.zshrc"
+alias zshrc="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
 alias cls='clear'
 alias free='free -m'
 alias cp="cp -i"
-alias xampp='cd /opt/lampp && sudo ./manager-linux-x64.run'
-alias ge='gedit'
-alias sge='sudo gedit'
+
+# Arch
+
+# alias inst='sudo pacman -S '
+# alias upd='sudo pacman -Syy '
+
+# Arch yay
+
+# alias inst='yay -S '
+# alias upd='yay -Syy '
+
+# Debian
+
+# alias inst='sudo apt install '
+# alias upd='sudo apt update && sudo apt upgrade'
+
 
 
 #add to path
