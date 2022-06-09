@@ -151,3 +151,6 @@ alias cp="cp -i"
 
 #syntax highlight
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#Manjaro
+#source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
