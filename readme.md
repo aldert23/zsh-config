@@ -1,7 +1,7 @@
 # My terminal config
 this is purely for me. to make it easier to install the stuff
 
-## Install on kali:
+## Install on kali(debian):
 
 
 * Update os
@@ -44,9 +44,15 @@ cp -f ~/zsh-config/.zshrc ~/.zshrc
 * install colorls# My terminal config(kali specific for now)
 this is purely for me. to make it easier to install the stuff
 
+* last thing
+go to the terminal settings and change the font to fira code nerd font
 
 
-## Install on manjaro:
+restart the terminal and walk trouch the config and then your done.
+
+Enjoy
+
+## Install on manjaro(Arch):
 
 
 * Update os
@@ -92,7 +98,7 @@ cp -f ~/zsh-config/.zshrc ~/.zshrc
 go to the terminal settings and change the font to fira code nerd font
 
 
-restart the terminal and walk trouch the confige and then ur done.
+restart the terminal and walk trouch the config and then your done.
 
 Enjoy
 
@@ -140,3 +146,69 @@ yay -S ruby-colorls
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
+
+
+## Install on fedora:
+
+
+* Update os
+```shell
+sudo dnf update && sudo dnf upgrade
+```
+
+* download config
+```shell
+git clone https://github.com/aldert23/zsh-config
+```
+
+* go to the folder
+
+if you didnt change the current folder use:
+```shell
+cd zsh-config
+```
+
+else use ```cd``` plus the path to the zsh-config folder
+
+* install font
+```shell
+sudo cp -r FiraCode /usr/share/fonts/truetype
+```
+
+* update fonts
+```shell
+sudo fc-cache -v
+```
+
+* install zsh
+```shell
+sudo dnf install zfs
+```
+
+* use zsh
+```shell
+zsh
+```
+
+* install oh-my-zsh
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+* install powerlevel10k
+```shell
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+* set custom settings
+```shell
+cp -f ~/zsh-config/.zshrc ~/.zshrc
+```
+
+* last thing
+go to the terminal settings and change the font to fira code nerd font
+
+
+restart the terminal and walk trouch the config and then your done.
+
+Enjoy
