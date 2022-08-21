@@ -8,6 +8,10 @@ this is purely for me. to make it easier to install the stuff
 ```shell
 sudo apt update && sudo apt upgrade
 ```
+* install zsh, git, ruby(for colorls) and curl
+```shell
+sudo apt install zsh curl git ruby
+```
 * download config
 ```shell
 git clone https://github.com/aldert23/zsh-config
@@ -22,10 +26,6 @@ else use ```cd``` plus the path to the zsh-config folder
 * install font
 ```shell
 sudo cp -r FiraCode /usr/share/fonts/truetype
-```
-* install zsh, git, ruby(for colorls) and curl
-```shell
-sudo apt install zsh curl git ruby
 ```
 * install oh-my-zsh
 ```shell
