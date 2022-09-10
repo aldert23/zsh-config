@@ -182,7 +182,7 @@ sudo fc-cache -v
 
 * install zsh
 ```shell
-sudo dnf install zfs
+sudo dnf install zsh
 ```
 
 * use zsh
