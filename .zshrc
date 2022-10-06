@@ -143,6 +143,10 @@ alias cp="cp -i"
 # alias inst='sudo apt install '
 # alias upd='sudo apt update && sudo apt upgrade'
 
+# Fedora
+
+# alias inst='sudo dnf install '
+# alias upd='sudo dnf update'
 
 
 #add to path
