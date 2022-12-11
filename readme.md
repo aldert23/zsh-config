@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade
 ```
 * install zsh, git, ruby(for colorls) and curl
 ```shell
-sudo apt install zsh curl git ruby
+sudo apt install zsh curl git ruby ruby-dev
 ```
 * download config
 ```shell
@@ -35,9 +35,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```shell
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+
 * install zsh-syntax-highlighting
 ```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+* install colorls
+```shell
+sudo gem install colorls
 ```
 
 * set custom settings
