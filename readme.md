@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade
 ```
 * install zsh, git, ruby(for colorls) and curl
 ```shell
-sudo apt install zsh curl git ruby ruby-dev
+sudo apt install zsh curl git ruby ruby-dev gcc make
 ```
 * download config
 ```shell
